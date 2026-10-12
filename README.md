@@ -6,6 +6,7 @@ jour et la page publiée affiche le nouveau prix, sans intervention.
 
 ## Contenu
 
+
 | Fichier | Rôle |
 |---|---|
 | `index.html` | Le plan 3D (autonome). Il lit `tarifs.json` au chargement. |
