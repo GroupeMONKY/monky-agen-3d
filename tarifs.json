@@ -1,0 +1,291 @@
+{
+  "maj": "2026-10-05",
+  "source": "monky.fr/agen + dépliant oct. 2026",
+  "activites": {
+    "bowling": {
+      "nom": "Bowling",
+      "url": "https://monky.fr/agen/activites/bowling/",
+      "lignes": [
+        {
+          "l": "Partie adulte",
+          "p": 7
+        },
+        {
+          "l": "Partie enfant (≤ 10 ans)",
+          "p": 5.5
+        },
+        {
+          "l": "Location chaussures",
+          "p": 2,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "suivi_auto": true
+    },
+    "kart": {
+      "nom": "Battle Kart",
+      "url": "https://monky.fr/agen/accueil/",
+      "lignes": [
+        {
+          "l": "1re partie",
+          "p": 22,
+          "u": "/pers."
+        },
+        {
+          "l": "2e partie",
+          "p": 18,
+          "u": "/pers."
+        },
+        {
+          "l": "3e partie",
+          "p": 16,
+          "u": "/pers."
+        }
+      ],
+      "suivi_auto": false
+    },
+    "jump": {
+      "nom": "Jump Park",
+      "url": "https://monky.fr/agen/activites/jump-park/",
+      "lignes": [
+        {
+          "l": "Entrée illimitée",
+          "p": 11,
+          "u": "/enfant"
+        },
+        {
+          "l": "Kid Park + Jump Park (6-12 ans)",
+          "p": 16.9
+        },
+        {
+          "l": "Chaussettes antidérapantes",
+          "p": 2.5,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "suivi_auto": true
+    },
+    "kid": {
+      "nom": "Kid Park",
+      "url": "https://monky.fr/agen/activites/kid-park/",
+      "lignes": [
+        {
+          "l": "Entrée illimitée",
+          "p": 11,
+          "u": "/enfant"
+        },
+        {
+          "l": "Kid Park + Jump Park (6-12 ans)",
+          "p": 16.9
+        },
+        {
+          "l": "Chaussettes antidérapantes",
+          "p": 2.5,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "suivi_auto": true
+    },
+    "baby": {
+      "nom": "Baby Park",
+      "url": "https://monky.fr/agen/activites/baby-park/",
+      "lignes": [
+        {
+          "l": "Entrée illimitée",
+          "p": 4.9,
+          "u": "/enfant"
+        },
+        {
+          "l": "Chaussettes antidérapantes",
+          "p": 2.5,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "suivi_auto": true
+    },
+    "pixel": {
+      "nom": "Pixel Games",
+      "url": "https://monky.fr/agen/activites/pixel-games/",
+      "lignes": [
+        {
+          "l": "1 partie",
+          "p": 9.9
+        },
+        {
+          "l": "2 parties",
+          "p": 14.9
+        },
+        {
+          "l": "Chaussettes antidérapantes",
+          "p": 2.5,
+          "u": "la paire",
+          "x": 1
+        }
+      ],
+      "suivi_auto": true
+    },
+    "arcades": {
+      "nom": "Jeux d'arcade",
+      "url": "https://monky.fr/agen/activites/jeux-darcade/",
+      "lignes": [],
+      "suivi_auto": false
+    },
+    "darts": {
+      "nom": "Fléchettes",
+      "url": "https://monky.fr/agen/activites/billards-flechettes/",
+      "lignes": [
+        {
+          "l": "Tarif",
+          "p": null,
+          "txt": "sur place"
+        }
+      ],
+      "suivi_auto": false
+    },
+    "bar": {
+      "nom": "Bar",
+      "url": "https://monky.fr/agen/accueil/",
+      "lignes": [],
+      "suivi_auto": false
+    },
+    "snack": {
+      "nom": "Snack",
+      "url": "https://monky.fr/agen/accueil/",
+      "lignes": [
+        {
+          "l": "Tarifs",
+          "p": null,
+          "txt": "sur place"
+        }
+      ],
+      "suivi_auto": false
+    },
+    "anniv": {
+      "nom": "Anniversaires",
+      "url": "https://monky.fr/agen/accueil/",
+      "lignes": [
+        {
+          "l": "Formule anniversaire",
+          "p": 16.9,
+          "u": "/enfant"
+        },
+        {
+          "l": "Activité supplémentaire",
+          "p": 5,
+          "u": "/enfant",
+          "x": 1
+        },
+        {
+          "l": "Offre Pitchoun 0-5 ans",
+          "p": 12.9
+        }
+      ],
+      "suivi_auto": false
+    },
+    "resto": {
+      "nom": "Restaurant",
+      "url": "https://monky.fr/agen/accueil/",
+      "lignes": [
+        {
+          "l": "Menu enfant (< 12 ans)",
+          "p": 7.9
+        },
+        {
+          "l": "Offre étudiante repas + bowling + laser",
+          "p": 20,
+          "u": "/pers."
+        }
+      ],
+      "suivi_auto": false
+    },
+    "laser": {
+      "nom": "Laser Game",
+      "url": "https://monky.fr/agen/activites/laser-game/",
+      "lignes": [
+        {
+          "l": "1 partie",
+          "p": 8.9
+        },
+        {
+          "l": "2 parties",
+          "p": 14
+        }
+      ],
+      "suivi_auto": true
+    },
+    "karaoke": {
+      "nom": "Karaoké",
+      "url": "https://monky.fr/agen/activites/karaoke/",
+      "lignes": [
+        {
+          "l": "Salle, 10 h – 19 h",
+          "p": 25,
+          "u": "/heure"
+        },
+        {
+          "l": "Salle, 19 h – 02 h",
+          "p": 35,
+          "u": "/heure"
+        }
+      ],
+      "suivi_auto": true
+    },
+    "blind": {
+      "nom": "Blind Test",
+      "url": "https://monky.fr/agen/activites/this-is-blind-test/",
+      "lignes": [
+        {
+          "l": "Session",
+          "p": 8.9,
+          "u": "/pers."
+        }
+      ],
+      "suivi_auto": true
+    },
+    "quiz": {
+      "nom": "Quiz Room",
+      "url": "https://monky.fr/agen/activites/quiz-room/",
+      "lignes": [
+        {
+          "l": "1 heure",
+          "p": 14.9,
+          "u": "/pers."
+        },
+        {
+          "l": "1 h 30",
+          "p": 19.9,
+          "u": "/pers."
+        }
+      ],
+      "suivi_auto": true
+    },
+    "billard": {
+      "nom": "Billard",
+      "url": "https://monky.fr/agen/activites/billards-flechettes/",
+      "lignes": [
+        {
+          "l": "Table",
+          "p": 10,
+          "u": "/heure"
+        }
+      ],
+      "suivi_auto": false
+    },
+    "reunion": {
+      "nom": "Salle de réunion",
+      "url": "https://monky.fr/agen/accueil/",
+      "lignes": [
+        {
+          "l": "Location / privatisation",
+          "p": null,
+          "txt": "sur devis"
+        }
+      ],
+      "suivi_auto": false
+    }
+  }
+}
