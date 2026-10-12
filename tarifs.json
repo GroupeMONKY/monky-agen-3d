@@ -8,20 +8,25 @@
       "lignes": [
         {
           "l": "Partie adulte",
-          "p": 7
+          "p": 7,
+          "pos": 0
         },
         {
           "l": "Partie enfant (≤ 10 ans)",
-          "p": 5.5
+          "p": 5.5,
+          "pos": null
         },
         {
           "l": "Location chaussures",
           "p": 2,
           "u": "la paire",
-          "x": 1
+          "x": 1,
+          "pos": 2
         }
       ],
-      "suivi_auto": true
+      "suivi_auto": true,
+      "nb_montants": 4,
+      "signature": "5d008df34a"
     },
     "kart": {
       "nom": "Battle Kart",
@@ -52,20 +57,25 @@
         {
           "l": "Entrée illimitée",
           "p": 11,
-          "u": "/enfant"
+          "u": "/enfant",
+          "pos": 0
         },
         {
           "l": "Kid Park + Jump Park (6-12 ans)",
-          "p": 16.9
+          "p": 16.9,
+          "pos": null
         },
         {
           "l": "Chaussettes antidérapantes",
           "p": 2.5,
           "u": "la paire",
-          "x": 1
+          "x": 1,
+          "pos": 3
         }
       ],
-      "suivi_auto": true
+      "suivi_auto": true,
+      "nb_montants": 4,
+      "signature": "6ff578704b"
     },
     "kid": {
       "nom": "Kid Park",
@@ -74,20 +84,25 @@
         {
           "l": "Entrée illimitée",
           "p": 11,
-          "u": "/enfant"
+          "u": "/enfant",
+          "pos": 0
         },
         {
           "l": "Kid Park + Jump Park (6-12 ans)",
-          "p": 16.9
+          "p": 16.9,
+          "pos": null
         },
         {
           "l": "Chaussettes antidérapantes",
           "p": 2.5,
           "u": "la paire",
-          "x": 1
+          "x": 1,
+          "pos": null
         }
       ],
-      "suivi_auto": true
+      "suivi_auto": true,
+      "nb_montants": 2,
+      "signature": "8d3120ce6e"
     },
     "baby": {
       "nom": "Baby Park",
@@ -96,16 +111,20 @@
         {
           "l": "Entrée illimitée",
           "p": 4.9,
-          "u": "/enfant"
+          "u": "/enfant",
+          "pos": 2
         },
         {
           "l": "Chaussettes antidérapantes",
           "p": 2.5,
           "u": "la paire",
-          "x": 1
+          "x": 1,
+          "pos": 3
         }
       ],
-      "suivi_auto": true
+      "suivi_auto": true,
+      "nb_montants": 5,
+      "signature": "37ab4027b1"
     },
     "pixel": {
       "nom": "Pixel Games",
@@ -113,20 +132,25 @@
       "lignes": [
         {
           "l": "1 partie",
-          "p": 9.9
+          "p": 9.9,
+          "pos": null
         },
         {
           "l": "2 parties",
-          "p": 14.9
+          "p": 14.9,
+          "pos": null
         },
         {
           "l": "Chaussettes antidérapantes",
           "p": 2.5,
           "u": "la paire",
-          "x": 1
+          "x": 1,
+          "pos": 2
         }
       ],
-      "suivi_auto": true
+      "suivi_auto": true,
+      "nb_montants": 3,
+      "signature": "a540a186e3"
     },
     "arcades": {
       "nom": "Jeux d'arcade",
@@ -208,14 +232,18 @@
       "lignes": [
         {
           "l": "1 partie",
-          "p": 8.9
+          "p": 8.9,
+          "pos": null
         },
         {
           "l": "2 parties",
-          "p": 14
+          "p": 14,
+          "pos": 1
         }
       ],
-      "suivi_auto": true
+      "suivi_auto": true,
+      "nb_montants": 2,
+      "signature": "bbf550f774"
     },
     "karaoke": {
       "nom": "Karaoké",
@@ -224,15 +252,19 @@
         {
           "l": "Salle, 10 h – 19 h",
           "p": 25,
-          "u": "/heure"
+          "u": "/heure",
+          "pos": 0
         },
         {
           "l": "Salle, 19 h – 02 h",
           "p": 35,
-          "u": "/heure"
+          "u": "/heure",
+          "pos": 1
         }
       ],
-      "suivi_auto": true
+      "suivi_auto": true,
+      "nb_montants": 4,
+      "signature": "86260fdc12"
     },
     "blind": {
       "nom": "Blind Test",
@@ -241,10 +273,13 @@
         {
           "l": "Session",
           "p": 8.9,
-          "u": "/pers."
+          "u": "/pers.",
+          "pos": null
         }
       ],
-      "suivi_auto": true
+      "suivi_auto": true,
+      "nb_montants": 2,
+      "signature": "603d1f5b7c"
     },
     "quiz": {
       "nom": "Quiz Room",
@@ -253,15 +288,19 @@
         {
           "l": "1 heure",
           "p": 14.9,
-          "u": "/pers."
+          "u": "/pers.",
+          "pos": null
         },
         {
           "l": "1 h 30",
           "p": 19.9,
-          "u": "/pers."
+          "u": "/pers.",
+          "pos": null
         }
       ],
-      "suivi_auto": true
+      "suivi_auto": true,
+      "nb_montants": 2,
+      "signature": "ee1aa856c3"
     },
     "billard": {
       "nom": "Billard",
