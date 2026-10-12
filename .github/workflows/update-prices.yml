@@ -1,0 +1,50 @@
+name: Mise à jour des tarifs Monky Agen
+
+on:
+  schedule:
+    - cron: "17 4 * * *"      # tous les jours vers 6 h (heure de Paris)
+  workflow_dispatch:          # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install requests beautifulsoup4
+
+      - name: Relever les prix sur monky.fr
+        run: python scripts/update_prices.py
+
+      - name: Enregistrer les nouveaux tarifs
+        run: |
+          git config user.name "monky-tarifs-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add tarifs.json
+          if git diff --cached --quiet; then
+            echo "Pas de modification."
+          else
+            git commit -m "Tarifs mis à jour depuis monky.fr ($(date +%F))"
+            git push
+          fi
+
+      - name: Signaler une anomalie
+        if: hashFiles('anomalies.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="Tarifs Monky Agen : vérification nécessaire"
+          if gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number' | grep -q .; then
+            echo "Une issue est déjà ouverte."
+          else
+            gh issue create --title "$TITLE" --body-file anomalies.md
+          fi
